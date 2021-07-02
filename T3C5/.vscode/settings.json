@@ -1,5 +1,21 @@
 {
     "githubPullRequests.remotes": [
         "origin"
+    ],
+    "cSpell.ignoreWords": [
+        "o",
+        "op",
+        "opção"
+    ],
+    "cSpell.words": [
+        "elei",
+        "eleições",
+        "es",
+        "indicando",
+        "retornando",
+        "total",
+        "validos",
+        "willy",
+        "wonka"
     ]
 }
