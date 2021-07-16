@@ -12,7 +12,7 @@ html{
 
 /* Comentario */
 nav{
-   background-color: #3359ec;
+   background-color: #ff0178;
    font-weight: 500;
    position: fixed;
    width: 100%;
@@ -40,25 +40,28 @@ header{
    padding: 3rem;
 }
 
-header div#img-rocket {
+header div#img-prot {
    display: flex;
    justify-content: center;
+   padding: 1vw;
 }
 
 header div p{
    font-size: 2vw;
    font-weight: 700;
-   color: #3359ec;
+   color: #ff0178;
+   padding-left: 5rem;
 }
 
 header div span{
    font-size: 1vw;
    font-weight: 500;
-   color: #0066ff;
+   color: #ff0178;
+   padding-left: 5rem;
 }
 
-header div#img-rocket img{
-   width: 60%;
+header div#img-prot img{
+   width: 150%;
 }
 
 section#sobre-mim{
@@ -66,12 +69,12 @@ section#sobre-mim{
    justify-content: center;
    align-items: center;
    padding: 4rem;
-   background-color: #3359ec;
+   background-color: #ff0178;
 }
 
 
 section#sobre-mim div img{
-   width: 60%;
+   width: 100%;
    border-radius: 50%;
 
 }
@@ -81,6 +84,7 @@ section#sobre-mim div p{
    text-align: justify;
    color: #fff;
    line-height: 2.5rem;
+   padding-left: 3rem;
 }
 
 section#projetos{
@@ -109,9 +113,9 @@ section#projetos div{
 }
 
 section#projetos div button{
-   border: 1px solid #3359ec;
+   border: 1px solid #ff0178;
    background-color: #fff;
-   color: #3359ec;
+   color: #ff0178;
    padding: 1rem;
    font-size: .8vw;
    font-weight: 600;
@@ -124,7 +128,7 @@ section#projetos div button{
 }
 
 section#projetos div button:hover{
-   background-color: #3359ec;
+   background-color: #ff0178;
    color: #fff;
    transform: scale(1.2);
 }
@@ -148,12 +152,12 @@ section#habilidades p{
 
 section#habilidades div{
    display: flex;
-   border: 1px solid #3359ec;
+   border: 1px solid #ff0178;
    border-radius: 1rem;
 }
 
 section#habilidades div span#python{
-   background-color: #3359ec;
+   background-color: #ff0178;
    color: #fff;
    text-align: center;
    padding: .3rem;
@@ -162,7 +166,7 @@ section#habilidades div span#python{
 }
 
 section#habilidades div span#html{
-   background-color: #3359ec;
+   background-color: #ff0178;
    color: #fff;
    text-align: center;
    padding: .3rem;
@@ -171,10 +175,19 @@ section#habilidades div span#html{
 }
 
 section#habilidades div span#css{
-   background-color: #3359ec;
+   background-color: #ff0178;
    color: #fff;
    text-align: center;
    padding: .3rem;
    border-radius: 1rem;
    width: 30%;
 }
+
+section#habilidades div span#Postgree{
+    background-color: #ff0178;
+    color: #fff;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 30%;
+ }
