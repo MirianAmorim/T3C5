@@ -2,7 +2,6 @@ const elementoNome = document.getElementById('nome');
 const elementoSituacao = document.querySelector('#situacao');
 const elementoImg = document.querySelector('#imagem');
 let elementoBtn = document.querySelector('#alterar');
-let elementoby = document.querySelector('#by')
 
 elementoBtn.addEventListener('click', () =>{
     
