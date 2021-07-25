@@ -6,13 +6,11 @@ let nomeOk = false
 let emailOk = false 
 let msgOk = false 
 btnEnviar.disabled = true
- 
 
 
-/
-inputNome.addEventListener('keydown', () => { 
+inputNome.addEventListener('keyup', () => { 
    
-   if(inputNome.value.length < 2){
+   if(inputNome.value.length <= 2){
       inputNome.style.borderColor = 'red' 
       nomeOk = false
    } else {
@@ -24,7 +22,6 @@ inputNome.addEventListener('keydown', () => {
       inputNome.style.borderColor = '#ccc'
    }
 
-
    if (nomeOk && emailOk && msgOk) {
       btnEnviar.disabled = false
    } else {
@@ -32,8 +29,6 @@ inputNome.addEventListener('keydown', () => {
    }
 
 })
-
-
 
 inputEmail.addEventListener('keyup', () => {
 
@@ -52,10 +47,12 @@ inputEmail.addEventListener('keyup', () => {
    }
 })
 
-
 textareaMensagem.addEventListener('keyup', ()=>{
 
    if(textareaMensagem.value.length > 100){
+      textareaMensagem.style.borderColor = 'red'
+      msgOk = false
+   } else if(textareaMensagem.value.length < 15){
       textareaMensagem.style.borderColor = 'red'
       msgOk = false
    } else {

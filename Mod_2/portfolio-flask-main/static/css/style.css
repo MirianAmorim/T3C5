@@ -139,7 +139,8 @@ section#projetos {
 }
 
 section#projetos div {
-  padding: 1vw;
+  width: 100%;
+  padding: 1rem;
   margin: 0 1rem 0 1rem;
 }
 
@@ -149,17 +150,21 @@ section#projetos div:hover {
 }
 
 section#projetos div p {
-  text-align: justify;
+  color:#fff;
+  text-align:justify;
 }
 
 section#projetos div h2 {
+  color:#fff;
   text-align: center;
-  padding: 1rem;
+  padding: 1vw;
 }
 
 section#projetos div img {
   display: block;
   margin: auto;
+  width: 100%;
+  height: 100%;
 }
 
 section#projetos div button {
@@ -184,7 +189,12 @@ section#projetos div button {
 
 section#projetos div button:hover {
   box-shadow: rgb(44, 144, 131) 0px 8px 24px;
-  font-size: medium;
+}
+
+section#projetos div button a {
+  color: #fff;
+  font-size: 0.8vw;
+  text-decoration: none;
 }
 
 section#habilidades {
@@ -193,16 +203,23 @@ section#habilidades {
 }
 
 section#habilidades h2 {
+  font-family: Sofia;
   padding-top:5vw;
   text-align: center;
   font-size: 2.5vw;
   color:#000000;
   margin-bottom: 2vw;
-  text-shadow: .1rem .1rem #0b5c5c;
+  text-shadow: .1vw .1vw #0b5c5c;
+}
+
+section#habilidades h2:hover {
+  color:#0b5c5c;
+  text-shadow: rgb(44, 144, 131) 0px 8px 24px;
+  transition: 0.2s ease-in-out;
 }
 
 section#habilidades p {
-
+  color:#ccc;
   padding: 1vw;
   font-size: 1.3vw;
   font-weight: 600;
@@ -216,97 +233,124 @@ section#habilidades div {
 }
 
 section#habilidades span#html5 {
-  background-image: linear-gradient(to top, #67082c 0%, #0b5c5c 100%);
+  background-image: linear-gradient(to top, #0b5c5c 0%, #7c0834 100%);
   width: 70%;
   color: #fff;
-  padding: 0.3rem;
+  padding: 0.3vw;
   text-align: end;
   border-radius: 0.9vw;
 }
 
 section#habilidades span#css3 {
-  background-image: linear-gradient(to top, #67082c 0%, #0b5c5c 100%);
+  background-image: linear-gradient(to top, #0b5c5c 0%, #7c0834 100%);
   width: 80%;
   color: #fff;
-  padding: 0.3rem;
+  padding: 0.3vw;
   text-align: end;
   border-radius: 0.9vw;
 }
 
 section#habilidades span#js {
-  background-image: linear-gradient(to top, #67082c 0%, #0b5c5c 100%);
+  background-image: linear-gradient(to top, #0b5c5c 0%, #7c0834 100%);
   width: 50%;
   color: #fff;
-  padding: 0.3rem;
+  padding: 0.3vw;
   text-align: end;
   border-radius: 0.9vw;
 }
 
 section#habilidades span#python {
-  background-image: linear-gradient(to top, #67082c 0%, #0b5c5c 100%);
+  background-image: linear-gradient(to top, #0b5c5c 0%, #7c0834 100%);
   width: 80%;
   color: #fff;
-  padding: 0.3rem;
+  padding: 0.3vw;
   text-align: end;
   border-radius: 0.9vw;
 }
 
 section#habilidades span#flask {
-  background-image: linear-gradient(to top, #67082c 0%, #0b5c5c 100%);
+  background-image: linear-gradient(to top, #0b5c5c 0%, #7c0834 100%);
   width: 30%;
   color: #fff;
-  padding: 0.3rem;
+  padding: 0.3vw;
   text-align: end;
   border-radius: 0.9vw;
 }
 
 section#habilidades span#sql {
-  background-image: linear-gradient(to top, #67082c 0%, #0b5c5c 100%);
+  background-image: linear-gradient(to top, #0b5c5c 0%, #7c0834 100%);
   width: 20%;
   color: #fff;
-  padding: 0.3rem;
+  padding: 0.3vw;
   text-align: end;
   border-radius: 0.9vw;
 }
 
 section#habilidades span#equipe {
-  background-image: linear-gradient(to top, #67082c 0%, #0b5c5c 100%);
+  background-image: linear-gradient(to top, #0b5c5c 0%, #7c0834 100%);
   width: 85%;
   color: #fff;
-  padding: 0.3rem;
+  padding: 0.3vw;
   text-align: end;
   border-radius: 0.9vw;
 }
 
 section#contato {
-  padding: 3rem 10rem 3rem 10rem;
-  display: grid;
+  padding: 5vw 10vw 3vw 10vw;
+  display:grid;
   place-items: center;
 }
 
-section#contato h2 {
+section#contato div#redes h3 {
+  padding-top:5vw;
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
+  font-size: 2.5vw;
+  color:#000000;
+  margin-bottom: 1vw;
+  text-shadow: .1vw .1vw #0b5c5c;
 }
 
+section#contato div#redes h3:hover {
+color:#0b5c5c;
+  text-shadow: rgb(44, 144, 131) 0px 8px 24px;
+  transition: 0.2s ease-in-out;
+}
+
+section#contato h3 {
+  font-family: Sofia;
+  text-align: center;
+  font-size: 2.5vw;
+  color:#000000;
+  padding-top: 20vw;
+  margin-bottom: 1vw;
+  text-shadow: .1vw .1vw #0b5c5c;
+}
+
+section#contato h3:hover {
+  color:#0b5c5c;
+    text-shadow: rgb(44, 144, 131) 0px 8px 24px;
+    transition: 0.2s ease-in-out;
+  }
+
 section#contato form {
-  width: 50%;
+  padding: 0vw 10vw 3vw 10vw;
+  width: 70%;
 }
 
 section#contato form input,
 textarea {
   width: 100%;
-  padding: 0.5em;
-  font-size: 1.2rem;
-  margin: 0 0 1em;
+  padding: 0.5vw;
+  font-size: 1.2vw;
+  margin: 0 0 1vw;
   border: 1px solid #ccc;
   outline: none;
 }
 
 section#contato form label {
+  color:#ccc;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1.2vw;
 }
 
 section#contato form button {
@@ -316,7 +360,6 @@ section#contato form button {
   font-size: 0.8vw;
   font-weight: 600;
   text-decoration: none;
-  transition: 0.3s ease-in-out;
   padding: 1vw;
   border-end-start-radius: 58%;
   border-start-end-radius: 58%;
@@ -346,32 +389,30 @@ section#contato form button:hover:disabled {
   color: rgb(170, 170, 170);
 }
 
-section#contato form button:hover {
-  background-color: #0b5c5c;
-  color: #fff;
-}
-
-section#contato div#redes a{
+section#contato div#redes a i{
+  margin-bottom: 2vw;
+  width: 100%;
   text-decoration: none;
   color: #0b5c5c;
-  font-size: 4vw;
-  padding: 2vw;
+  font-size: 3vw;
 }
 
 section#contato div#redes a i:hover {
+  color: #042525;
+  width: 60%;
   border-radius: 50%;
   box-shadow: rgb(44, 144, 131) 0px 8px 24px
 }
 
 section#contato div#redes {
-  margin-bottom: 2rem;
+  text-align: center;
 }
 
 section#contato h3 {
   text-color: #fff;
   text-align: center;
-  padding: 2rem;
-  font-size: 2rem;
+  padding: 2vw;
+  font-size: 2vw;
 }
 
 /* Loader de carregamento */
@@ -380,23 +421,23 @@ section#contato div#carregamento{
   display: none; /* Deixa o display none para não aparecer até que você clique no botão enviar (ver JS) */
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 3rem;
+  margin-top: 3vw;
 }
 
 section#contato div#carregamento p{
   color: #0b5c5c;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2vw;
   width: 100%;
   text-align: center;
-  padding: 2rem;
+  padding: 2vw;
 }
 
 section#contato div#carregamento div#loader{
   border: 13px solid #fff;
   border-radius: 50%;
-  border-top: 13px solid #0066ff;
-  border-bottom: 13px solid #0066ff;
+  border-top: 13px solid #0b5c5c;
+  border-bottom: 13px solid #0b5c5c;
   width: 80px;
   height: 80px;
   /* Anima o elemento div#loader criando a variável spin, em 2s de forma linear e infinita */
@@ -430,12 +471,12 @@ footer hr {
 }
 
 footer a#Mi_Link {
-  text-decoration: none;
+  text-decoration:underline;
   color: #0b5c5c;
 }
 
 footer a#Mi_Link:hover {
-  color: #ff01ed;
+  color: #950050;;
 }
 
 footer {
@@ -485,7 +526,10 @@ section#success div#card a{
   padding: 1rem;
   border: 1px solid rgb(0, 88, 0);
   color:rgb(0, 88, 0);
-  border-radius: .4rem;
+  border-end-start-radius: 70%;
+  border-start-end-radius: 70%;
+  border-style: dotted;
+  border-top-style:solid;
   transition: all .4s ease-out;
 }
 
